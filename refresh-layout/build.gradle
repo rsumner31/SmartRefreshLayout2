@@ -31,7 +31,6 @@ compileO    compileOptions {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-<<<<<<< HEAD
     testCom    testCompile 'junit:junit:4.12'
     provided 'com.android.support:design:25.3.1'
 >>>>>>>+HEAD
@@ -94,6 +93,7 @@ compileO    compileOptions {
 >>>>>>>+HEAD
 freshlay    groupId = 'com.scwang.refreshlayout'
     artifactId = 'SmartRefreshLayout'
+<<<<<<< release
     version = '1.0.0'
 >>>>>>>-b122d10
 '

@@ -31,7 +31,6 @@ compileO    compileOptions {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-<<<<<<< HEAD
     testCom    testCompile 'junit:junit:4.12'
     provided 'com.android.support:support-compat:25.3.1'
     provided project(':refresh-layout')
@@ -105,6 +104,7 @@ compileO    compileOptions {
 >>>>>>>+HEAD
 freshlayout'
     artifactId = 'SmartRefreshHeader'
+<<<<<<< release
     version = '0.0.1'
     description = 'Some delicate headers of SmartRefreshLayout'
     website = "https://github.com/scwang90/${rootProject.name}"
