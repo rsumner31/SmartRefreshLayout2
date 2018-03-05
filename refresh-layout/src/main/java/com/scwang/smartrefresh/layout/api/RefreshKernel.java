@@ -93,13 +93,11 @@ public interface RefreshKernel {
     RefreshKernel requestRemeasureHeightForHeader();
     /**
      * 请求重新测量 footerHeight , 要求 footer 高度为 WRAP_CONTENT
-     * @return RefreshKernel
-     */
-    RefreshKernel requestRemeasureHeightForFooter();
-    /**
-     * 设置二楼回弹时长
-     * @param duration 二楼回弹时长
-     * @return RefreshKernel
+     * @return RefreshKe     * 请求重新测量 headerHeight , 要求 header 高度为 WRAP_CONTENT
+>>>>>>>+release
+ * @para     * 请求重新测量
+>>>>>>>-a26c45e
+rnel
      */
     RefreshKernel requestFloorDuration(int duration);
     //</editor-fold>

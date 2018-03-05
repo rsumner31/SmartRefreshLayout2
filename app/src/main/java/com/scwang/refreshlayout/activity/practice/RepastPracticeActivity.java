@@ -93,9 +93,9 @@ public class RepastPracticeActivity extends AppCompatActivity {
                                 refreshLayout.finishLoadMoreWithNoMoreData();//设置之后，将不会再触发加载事件
                             } else {
                                 mAdapter.loadMore(loadModels());
-                                refreshLayout.finishLoadMore();
-                            }
-                        }
+>>>>>>>+release
+        >>>>>>>-a26c45e
+                  }
                     }, 1000);
                 }
             });

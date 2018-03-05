@@ -38,7 +38,6 @@ compileO    compileOptions {
     testCompile 'junit:junit:4.12'
 >>>>>>>-b122d10
 '
-<<<<<<< HEAD
     groupId = 'com.scwa    groupId = 'com.scwang.smartrefresh'
     artifactId = 'SmartRefreshLayout'
     version = '1.0.5'
@@ -93,6 +92,7 @@ compileO    compileOptions {
 >>>>>>>+HEAD
 freshlay    groupId = 'com.scwang.refreshlayout'
     artifactId = 'SmartRefreshLayout'
+<<<<<<< release
 <<<<<<< release
     version = '1.0.0'
 >>>>>>>-b122d10

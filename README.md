@@ -40,14 +40,14 @@ SmartRefreshLayout的目标是打造一个强大，稳定，成熟的下拉刷�
  - [自定义Header](https://github.com/scwang90/SmartRefreshLayout/blob/master/art/md_custom.md)
  
 ## Demo
-[下载 APK-Demo](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/app-debug.apk)
-
-![](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/png_apk_rqcode.png)
-
-#### 项目演示
-|个人首页|微博列表|
-|:---:|:---:|
-|![](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_practive_weibo.gif)|![](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_practive_feedlist.gif)|
+[ - [属性文档](https://github.com/scwang90/SmartRefreshLayout/blob/master/art/md_property.md)
+ - [智能之处](https://github.com/scwang90/SmartRefreshLayout/blob/master/art/md_smart.md)
+>>>>>>>+release
+:---:|
+| - [属性文档](art/md_property.md)
+ - [智能之处](art/md_smart.md)
+>>>>>>>-a26c45e
+|![](https://github.com/scwang90/SmartRefreshLayout/raw/master/art/gif_practive_feedlist.gif)|
 
 |餐饮美食|个人中心|
 |:---:|:---:|
@@ -130,17 +130,13 @@ compile 'com.android.support:design:25.3.1'//版本随意（非必须，引用�
 </com.scwang.smartrefresh.layout.SmartRefreshLayout>
 ```
 
-#### 3.在 Activity 或者 Fragment 中添加代码
-```java
-RefreshLayout refreshLayout = (RefreshLayout)findViewById(R.id.refreshLayout);
-refreshLayout.setOnRefreshListener(new OnRefreshListener() {
-    @Override
-    public void onRefresh(RefreshLayout refreshlayout) {
-        refreshlayout.finishRefresh(2000/*,false*/);//传入false表示刷新失败
-    }
-});
-refreshLayout.setOnLoadmoreListener(new OnLoadmoreListener() {
-    @Override
+#### 3.在 Activcompile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
+compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1'//没有使用特殊Header，可以不加这行
+>>>>>>>+release
+   publicompile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-0'
+compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5-alpha-0'//没有使用特殊Header，可以不加这行
+>>>>>>>-a26c45e
+rride
     public void onLoadmore(RefreshLayout refreshlayout) {
         refreshlayout.finishLoadmore(2000/*,false*/);//传入false表示加载失败
     }
